@@ -9,6 +9,10 @@
   </head>
 
   <body>
-    <%= yield %>
+  	<%= nav_bar brand: "Sis Animal", brand_link: root_url do %>
+    <% end %>
+    <div class='container'>
+    	<%= yield %>
+    </div>
   </body>
 </html>
